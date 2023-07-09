@@ -197,8 +197,32 @@ line-height: normal;
     margin: 30px 0;
 }
 .footer{
-    background: #e1a982;
+    display: flex;
+    background: #FFF8F3;
     padding: 130PX 200PX;
-  margin:100px ;
+    margin:100px ;
+    gap: 100px;
+}
+.footer-coloum{
+    width:50%;
+}
+.section-description{
+    text-align: left ;
+}
+.contact input,
+.textarea{
+    display: block;
+    gap:24px;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color:  #757575;
+    /* background: #FFF; */
+    /* margin: 0%; */
+    /* width: 100%; */
+    
+}
+.can{
+    border-radius: 10px;
 }
 
