@@ -30,6 +30,7 @@ nav {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+
 }
 
 .section-title {
@@ -176,7 +177,7 @@ main {
 .resume-container{
     display: flex;
     gap:50px;
-    background: #D1D1D1;
+    /* background: #D1D1D1; */
  
     padding: 0px 10px 20px;
 }
@@ -189,3 +190,15 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.resume-title-description,.resume-item-item-institue{
+    color: var(--dark-03, #757575);
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.footer{
+    background: #e1a982;
+    padding: 130PX 200PX;
+  margin:100px ;
+}
+
